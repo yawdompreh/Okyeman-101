@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okyman Association</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Okyeman Association</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#about" onclick="showSection('about')">About</a></li>
+                    <li><a href="#constitution" onclick="showSection('constitution')">Constitution</a></li>
+                    <li><a href="#executives" onclick="showSection('executives')">Executives</a></li>
+                    <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+                    <li><a href="#events" onclick="showSection('events')">Events</a></li>
+                    <li><a href="#membership" onclick="showSection('membership')">Membership</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="content-section active">
+            <div class="container">
+                <div class="hero">
+                    <h2>Welcome to Okyeman Association of Columbus Ohio</h2>
+                    <p>Building stronger communities through unity, service, and shared values.</p>
+                    <div class="quick-actions">
+                        <button onclick="showSection('membership')" class="btn primary">Join Us</button>
+                        <button onclick="showSection('events')" class="btn secondary">View Events</button>
+                    </div>
+                </div>
+                
+                <div class="news-highlights">
+                    <h3>Latest News</h3>
+                    <div class="news-grid">
+                        <article class="news-item">
+                            <h4>Annual General Meeting 2024</h4>
+                            <p>Join us for our upcoming AGM on March 15th. All members welcome.</p>
+                        </article>
+                        <article class="news-item">
+                            <h4>Community Service Project</h4>
+                            <p>Successful completion of our local park cleanup initiative.</p>
+                        </article>
+                        <article class="news-item">
+                            <h4>New Member Welcome</h4>
+                            <p>We're excited to welcome 25 new members this quarter.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>About Our Association</h2>
+                <div class="about-content">
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To foster community engagement, promote social welfare, and create opportunities for personal and collective growth among our members.</p>
+                    </div>
+                    <div class="vision">
+                        <h3>Our Vision</h3>
+                        <p>A thriving community where every member contributes to and benefits from our collective strength and shared resources.</p>
+                    </div>
+                    <div class="values">
+                        <h3>Our Values</h3>
+                        <ul>
+                            <li>Integrity and Transparency</li>
+                            <li>Community Service</li>
+                            <li>Mutual Support</li>
+                            <li>Cultural Preservation</li>
+                            <li>Youth Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Constitution Section -->
+        <section id="constitution" class="content-section">
+            <div class="container">
+                <h2>Constitution & Bylaws</h2>
+                <div class="document-section">
+                    <h3>Association Constitution</h3>
+                    <div class="document-preview">
+                        <h4>Article I - Name and Purpose</h4>
+                        <p>The name of this organization shall be the Community Association, organized for the purpose of promoting community welfare and member development.</p>
+                        
+                        <h4>Article II - Membership</h4>
+                        <p>Membership is open to all individuals who share our values and commit to our community standards.</p>
+                        
+                        <h4>Article III - Governance</h4>
+                        <p>The Association shall be governed by an elected Executive Committee, accountable to all members.</p>
+                    </div>
+                    <div class="document-actions">
+                        <button class="btn primary">Download Full Constitution (PDF)</button>
+                        <button class="btn secondary">View Bylaws</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Executives Section -->
+        <section id="executives" class="content-section">
+            <div class="container">
+                <h2>Executive Committee</h2>
+                <div class="executives-grid">
+                    <div class="executive-card">
+                        <div class="executive-photo"></div>
+                        <h3>Samuel Ofosu</h3>
+                        <h4>President</h4>
+                        <p>Community leader with 10+ years experience in nonprofit management.</p>
+                        <div class="contact-info">
+                            <p>Email: president@association.org</p>
+                            <p>Phone: (6142184856)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="executive-card">
+                        <div class="executive-photo"></div>
+                        <h3>Michael Chen</h3>
+                        <h4>Vice President</h4>
+                        <p>Business professional passionate about community development.</p>
+                        <div class="contact-info">
+                            <p>Email: vp@association.org</p>
+                            <p>Phone: (555) 123-4568</p>
+                        </div>
+                    </div>
+                    
+                    <div class="executive-card">
+                        <div class="executive-photo"></div>
+                        <h3>Olivia Acquah</h3>
+                        <h4>Secretary</h4>
+                        <p>Dedicated volunteer with excellent organizational skills.</p>
+                        <div class="contact-info">
+                            <p>Email: secretary@association.org</p>
+                            <p>Phone: (6142184856)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="executive-card">
+                        <div class="executive-photo"></div>
+                        <h3>WO Asare</h3>
+                        <h4>Treasurer</h4>
+                        <p>Financial expert ensuring transparent fiscal management.</p>
+                        <div class="contact-info">
+                            <p>Email: treasurer@association.org</p>
+                            <p>Phone: (555) 123-4570</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="content-section">
+            <div class="container">
+                <h2>Event Gallery</h2>
+                
+                <!-- Upload Form -->
+                <div class="upload-section">
+                    <h3>Share Your Photos</h3>
+                    <form id="uploadForm" class="upload-form">
+                        <div class="form-group">
+                            <label for="imageUpload">Select Image:</label>
+                            <input type="file" id="imageUpload" name="image" accept="image/*" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="imageTitle">Title:</label>
+                            <input type="text" id="imageTitle" name="title" placeholder="Enter photo title" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="imageDescription">Description:</label>
+                            <textarea id="imageDescription" name="description" placeholder="Describe your photo..." rows="3" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="imageCategory">Category:</label>
+                            <select id="imageCategory" name="category" required>
+                                <option value="">Select category</option>
+                                <option value="community">Community Service</option>
+                                <option value="social">Social Events</option>
+                                <option value="meetings">Meetings</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn primary">Upload Photo</button>
+                    </form>
+                </div>
+                
+                <div class="gallery-categories">
+                    <button class="filter-btn active" onclick="filterGallery('all')">All Events</button>
+                    <button class="filter-btn" onclick="filterGallery('community')">Community Service</button>
+                    <button class="filter-btn" onclick="filterGallery('social')">Social Events</button>
+                    <button class="filter-btn" onclick="filterGallery('meetings')">Meetings</button>
+                    <button class="filter-btn" onclick="filterGallery('user-uploads')">User Uploads</button>
+                </div>
+                <div class="gallery-grid" id="galleryGrid">
+                    <div class="gallery-item community">
+                        <div class="gallery-image"></div>
+                        <h4>Park Cleanup Drive</h4>
+                        <p>March 2024</p>
+                    </div>
+                    <div class="gallery-item social">
+                        <div class="gallery-image"></div>
+                        <h4>Annual Picnic</h4>
+                        <p>June 2024</p>
+                    </div>
+                    <div class="gallery-item meetings">
+                        <div class="gallery-image"></div>
+                        <h4>General Assembly</h4>
+                        <p>January 2024</p>
+                    </div>
+                    <div class="gallery-item community">
+                        <div class="gallery-image"></div>
+                        <h4>Youth Mentorship Program</h4>
+                        <p>February 2024</p>
+                    </div>
+                    <div class="gallery-item social">
+                        <div class="gallery-image"></div>
+                        <h4>Cultural Festival</h4>
+                        <p>May 2024</p>
+                    </div>
+                    <div class="gallery-item meetings">
+                        <div class="gallery-image"></div>
+                        <h4>Board Meeting</h4>
+                        <p>April 2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="content-section">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <div class="events-list">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">MAR</span>
+                            <span class="day">15</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Annual General Meeting</h3>
+                            <p>Join us for our monthly GM to discuss achievements and future plans.</p>
+                            <div class="event-meta">
+                                <span>📍 Agler Party Hall</span>
+                                <span>🕐 Every 3rd Sunday of the Month 4:00 PM - 6:00 PM</span>
+                            </div>
+                            <button class="btn primary">Register</button>
+                        </div>
+                    </div>
+                    
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">APR</span>
+                            <span class="day">22</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Spring Fundraising Gala</h3>
+                            <p>An elegant evening supporting our community development projects.</p>
+                            <div class="event-meta">
+                                <span>📍 Grand Ballroom</span>
+                                <span>🕐 7:00 PM - 11:00 PM</span>
+                            </div>
+                            <button class="btn primary">Buy Tickets</button>
+                        </div>
+                    </div>
+                    
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">MAY</span>
+                            <span class="day">10</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Youth Skills Workshop</h3>
+                            <p>Professional development workshop for young members.</p>
+                            <div class="event-meta">
+                                <span>📍 Training Center</span>
+                                <span>🕐 9:00 AM - 3:00 PM</span>
+                            </div>
+                            <button class="btn primary">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section id="membership" class="content-section">
+            <div class="container">
+                <h2>Membership</h2>
+                <div class="membership-content">
+                    <div class="membership-benefits">
+                        <h3>Membership Benefits</h3>
+                        <ul>
+                            <li>Access to all association events and activities</li>
+                            <li>Networking opportunities with community leaders</li>
+                            <li>Voting rights in association decisions</li>
+                            <li>Professional development workshops</li>
+                            <li>Community service opportunities</li>
+                            <li>Newsletter and updates</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="membership-types">
+                        <h3>Membership Types & Dues</h3>
+                        <div class="membership-cards">
+                            <div class="membership-card">
+                                <h4>Regular Member</h4>
+                                <div class="price">$50/year</div>
+                                <ul>
+                                    <li>All basic benefits</li>
+                                    <li>Event discounts</li>
+                                    <li>Monthly newsletter</li>
+                                </ul>
+                                <button class="btn primary">Join Now</button>
+                            </div>
+                            
+                            <div class="membership-card featured">
+                                <h4>Family Member</h4>
+                                <div class="price">$75/year</div>
+                                <ul>
+                                    <li>Up to 4 family members</li>
+                                    <li>All regular benefits</li>
+                                    <li>Family event access</li>
+                                    <li>Priority registration</li>
+                                </ul>
+                                <button class="btn primary">Join Now</button>
+                            </div>
+                            
+                            <div class="membership-card">
+                                <h4>Student Member</h4>
+                                <div class="price">$25/year</div>
+                                <ul>
+                                    <li>Student discounts</li>
+                                    <li>Mentorship program</li>
+                                    <li>Career development</li>
+                                </ul>
+                                <button class="btn primary">Join Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="registration-form">
+                        <h3>Membership Registration</h3>
+                        <form id="membershipForm">
+                            <div class="form-group">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="membershipType">Membership Type:</label>
+                                <select id="membershipType" name="membershipType" required>
+                                    <option value="">Select membership type</option>
+                                    <option value="monthly">Regular Member ($15/month)</option>
+                                    <option value="yearly""> Member ($180/year)</option>
+                        
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="address">Address:</label>
+                                <textarea id="address" name="address" rows="3" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" required>
+                                    I agree to the association's terms and conditions
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn primary">Submit Registration</button>
+                        </form>
+                    </div>
+                    
+                    <div class="payment-section">
+                        <h3>Payment of Dues</h3>
+                        <p>Secure payment options available:</p>
+                        <div class="payment-methods">
+                            <button class="payment-btn">💳 Credit/Debit Card</button>
+                            <button class="payment-btn">🏦 Bank Transfer</button>
+                            <button class="payment-btn">📱 PayPal</button>
+                            <button class="payment-btn">💰 Cash (In Person)</button>
+                        </div>
+                        <p><strong>Due Date:</strong> Annual dues are due by January 31st each year.</p>
+                        <p><strong>Late Fee:</strong> $10 late fee applies after February 28th.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <strong>📍 Address:</strong>
+                            <p>123 Community Street<br>
+                            City, State 12345</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>📞 Phone:</strong>
+                            <p>(555) 123-4567</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>✉️ Email:</strong>
+                            <p>info@association.org</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>🕐 Office Hours:</strong>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM<br>
+                            Saturday: 10:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Name:</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">Email:</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                        <li><a href="#about" onclick="showSection('about')">About</a></li>
+                        <li><a href="#membership" onclick="showSection('membership')">Join Us</a></li>
+                        <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#constitution" onclick="showSection('constitution')">Constitution</a></li>
+                        <li><a href="#events" onclick="showSection('events')">Events</a></li>
+                        <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+                        <li><a href="#">Newsletter Archive</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#">📘 Facebook</a>
+                        <a href="#">🐦 Twitter</a>
+                        <a href="#">📷 Instagram</a>
+                        <a href="#">💼 LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Community Association. All rights reserved.</p>
+                <p>Designed with ❤️ for our community</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
